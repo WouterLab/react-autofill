@@ -8,7 +8,7 @@ const Input = ({
   required,
   label,
   id,
-  defaultValue,
+  defaultValue = "",
 }: ComponentDataType) => {
   const [inputValue, setInputValue] = useState(defaultValue);
 

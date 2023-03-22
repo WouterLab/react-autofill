@@ -51,7 +51,7 @@ function App() {
           ) : (
             <p>{errorMessage}</p>
           )}
-          <SubmitButton />
+          {!errorMessage && <SubmitButton />}
         </form>
       </div>
     </div>
